@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="style/style.css" rel="stylesheet">
+
+    <title>Items Details Page</title>
+</head>
+
+<body>
+    <div class="preloade active">
+        <img src="img/Vector.svg">
+    </div>
+    
+    <div class="page__content">
+        <header class="header__container">
+            <nav class="navbar">
+                <div class="content__container content__container--navbar">
+                    <div class="row row--navbar">
+    
+                        <div class="navbar__content__container">
+                            <div class="page__siyazlogo">
+                                <a href="index.html">
+                                    <svg width="30" height="41" viewBox="0 0 30 41" fill="none" class="svg__siyaz"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.75 0C10.2255 5.0344 11.25 19.2187 11.25 19.2187C11.25 19.2187 7.5 17.9375 7.5 12.1719C3.02601 14.831 0 19.9421 0 25.625C0 34.1164 6.71572 41 15 41C23.2843 41 30 34.1164 30 25.625C29.9999 13.1328 18.75 10.5703 18.75 0V0ZM16.3176 35.7023C13.3034 36.4725 10.2505 34.5924 9.49887 31.5027C8.74736 28.4131 10.5816 25.2838 13.596 24.5135C20.8732 22.6538 21.7852 18.4592 21.7852 18.4592C21.7852 18.4592 25.4141 33.3775 16.3176 35.7023Z"
+                                            fill="url(#paint0_linear_161_67)" />
+                                        <defs>
+                                            <linearGradient id="paint0_linear_161_67" x1="26.25" y1="-1.74884e-06"
+                                                x2="-5.52352" y2="31.3469" gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#E250E5" />
+                                                <stop offset="1" stop-color="#4B50E6" />
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+                                    <h3 class="logo__title">Siyaz</h3>
+                                </a>
+                            </div>
+    
+                            <div class="navbar__links__container">
+                                <ul class="navbar__links__container__lists">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">Explore <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                        <ul class="navbar__dropdown">
+                                            <li><a href="explore1.html"><span class="navbar__dropdown__hr">-</span> Explore
+                                                    1
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 2</a></li>
+                                            <li><span></span></li>
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 3 </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="items_details.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Items
+                                                    Details 1 </a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Activity <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                        <ul class="navbar__dropdown">
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Activity 1</a></li>
+                                            <li><span></span></li>
+                                            <li><a href="market_place.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Market
+                                                    Place</a></li>
+                                            <li><span></span></li>
+                                            <li><a href="home_page.html"><span class="navbar__dropdown__hr">-</span> Home
+                                                    Page</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Community <i class="fa-solid fa-angle-down fa-xs"></i> </a>
+                                        <ul class="navbar__dropdown">
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 1 </a>
+                                            </li>
+                                            <li><span></span></li>
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                        <ul class="navbar__dropdown">
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 1 </a>
+                                            </li>
+                                            <li><span></span></li>
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 2</a></li>
+                                            <li><span></span></li>
+                                            <li><a href="login.html"><span class="navbar__dropdown__hr">-</span> Login
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="signup.html"><span class="navbar__dropdown__hr">-</span> Signup
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="edit_profile.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Edit Profile
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="create_item.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Create Item
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="author.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Author
+                                                </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="profil.html"><span class="navbar__dropdown__hr">-</span>
+                                                    Profil
+                                                </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Contact <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                        <ul class="navbar__dropdown">
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 1 </a></li>
+                                            <li><span></span></li>
+                                            <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <div class="navbar__buttons">
+    
+                                <div class="navbar__buttons__search--input">
+                                    <button class="navbar__buttons__search" data-button="navbar__buttons__search">
+                                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                                    </button>
+                                    <div class="input__search__container" data-menu="input__search__container">
+                                        <input type="text" placeholder="Search..." name="navbar__search">
+                                        <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                                    </div>
+                                </div>
+    
+                                <div class="blank__background__button blank__background__button--wallet">
+                                    <a href="#">
+                                        <i class="fa-solid fa-wallet"></i>
+                                        <span>Wallet connect</span>
+                                    </a>
+                                </div>
+    
+                                <div class="dark__light__button">
+                                    <button class="theme__button light__mode">
+                                        <i class="fa-regular fa-sun fa-lg"></i>
+                                    </button>
+    
+                                    <button class="theme__button dark__mode">
+                                        <i class="fa-regular fa-moon fa-lg"></i>
+                                    </button>
+                                </div>
+    
+                                <button class="theme__button navbar__links__responsive__menu__button"
+                                    data-button="navbar__links__responsive__menu__button">
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                                <div class="responsive__menu__button__content"
+                                    data-menu="responsive__menu__button__content">
+                                    <ul class="responsive__navbar__menu">
+                                        <li>
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li>
+                                            <a href="#">Explore
+                                                <i class="fa-solid fa-angle-down fa-xs"></i>
+                                            </a>
+                                            <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                                <li><a href="explore1.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Explore
+                                                        1
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore
+                                                        2</a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 3
+                                                    </a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="items_details.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Items
+                                                        Details 1 </a></li>
+                                            </ul>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li>
+                                            <a href="#">Activity
+                                                <i class="fa-solid fa-angle-down fa-xs"></i>
+                                            </a>
+                                            <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Activity
+                                                        1</a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="market_place.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Market
+                                                        Place</a></li>
+                                                <li><span></span></li>
+                                                <li><a href="home_page.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Home
+                                                        Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li>
+                                            <a href="#">Community
+                                                <i class="fa-solid fa-angle-down fa-xs"></i>
+                                            </a>
+                                            <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 1
+                                                    </a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community
+                                                        2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li>
+                                            <a href="#">Pages
+                                                <i class="fa-solid fa-angle-down fa-xs"></i>
+                                            </a>
+                                            <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 1 </a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 2</a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="login.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Login
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="signup.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Signup
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="edit_profile.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Edit Profile
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="create_item.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Create Item
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="author.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Author
+                                                    </a></li>
+                                                <li><span></span></li>
+                                                <li><a href="profil.html"><span class="navbar__dropdown__hr">-</span>
+                                                        Profil
+                                                    </a></li>
+                                            </ul>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li>
+                                            <a href="#">Contact
+                                                <i class="fa-solid fa-angle-down fa-xs"></i>
+                                            </a>
+                                            <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 1
+                                                    </a>
+                                                </li>
+                                                <li><span></span></li>
+                                                <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact
+                                                        2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__container__title">
+                <h1>Items Details</h1>
+                <div class="header__container__title__comment">
+                    <h3>Home / Explore /
+                        <span class="page__text">Items Details 1</span>
+                    </h3>
+                </div>
+            </div>
+        </header>
+    
+        <main class="content__container">
+            <div class="row">
+                <section class="content content--seller">
+    
+                    <div class="grid-2 grid-2--items__details__page">
+                        <img src="img/images-item-details-1.svg" alt="itemsDetails1">
+                        <div class="details__content">
+                            <h2>“The Fantasy Flower Illustration”</h2>
+    
+                            <div class="content__header content__header--send">
+    
+                                <div class="categories__menu">
+                                    <span class="view__span view__span--grey">
+                                        <i class="fa-solid fa-eye"></i>
+                                        225
+                                    </span>
+    
+                                    <span class="view__span view__span--grey like__click">
+                                        <i class="fa-regular fa-heart"></i>
+                                        100
+                                    </span>
+                                </div>
+    
+                                <div class="categories__menu">
+                                    <span class="view__span view__span--grey radius">
+                                        <i class="fa-regular fa-paper-plane"></i>
+                                    </span>
+    
+                                    <span class="view__span view__span--grey radius">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </span>
+                                </div>
+                            </div>
+    
+                            <div class="content__header content__header--details">
+                                <div class="view__span view__span--grey cards__container__footer__users details__span">
+                                    <img src="img/man-1.svg" alt="man-1">
+                                    <div class="cards__content__footer__texts">
+                                        <h5 class="owned">Owned By</h5>
+                                        <a href="#" class="name">
+                                            Ralph Garraway
+                                        </a>
+                                    </div>
+                                </div>
+    
+                                <div class="view__span view__span--grey cards__container__footer__users details__span">
+                                    <img src="img/man-2.svg" alt="man-1">
+                                    <div class="cards__content__footer__texts">
+                                        <h5 class="owned">Create By</h5>
+                                        <a href="#" class="name">
+                                            Fredie Carpenter
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <p>Habitant sollicitudin faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi
+                                lobortisal morbi fringilla urna amet sed ipsum vitae ipsum malesuada. Habitant sollicitudin
+                                faucibus cursus lectus pulvinar dolor non ultrices eget. Facilisi lobortisal morbi fringilla
+                                urna amet sed ipsum</p>
+    
+                            <div class="content__header content__header--details">
+                                <div
+                                    class="view__span view__span--grey cards__container__footer__users details__span items__details">
+                                    <div class="cards__container__footer__users details">
+                                        <h3>Current Bind</h3>
+                                        <h2>4.89 ETH <span> = $12.246</span></h2>
+                                    </div>
+                                </div>
+    
+                                <div
+                                    class="view__span view__span--grey cards__container__footer__users details__span items__details">
+                                    <div class="cards__container__footer__users details">
+                                        <h3>Countdown</h3>
+                                        <h2 class="countdown">
+                                            <span id="countdown__item">
+                                                <span id="countdown__text" data-time="2023-11-05T23:59:59"></span>
+                                            </span>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="details__button__width">
+                                <div class="load__more__button load__more__button--details">
+                                    <div class="blank__background__button blank__background__button--black">
+                                        <a href="#">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            Place a bid
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="tabs__menu__links__content">
+                                <ul class="tabs__menu__links">
+                                    <li class="tabs__menu__links__item active">Bid History</li>
+                                    <li class="tabs__menu__links__item">Info</li>
+                                    <li class="tabs__menu__links__item">Provenance</li>
+                                </ul>
+                                <span></span>
+                            </div>
+    
+                            <div class="tabs__menu__content active">
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span ">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-3.svg" alt="man-3">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-4.svg" alt="man-4 ">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>bid accepted</span>
+                                            </a>
+                                            <span class="name">at 06/10/2021, 3:20 AM</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-1.svg" alt="man-1">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/woman-2.svg" alt="woman-2">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-6.svg" alt="man-6">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-5.svg" alt="man-5">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__footer__texts details__tabs__menu__users">
+                                        <a href="#">
+                                            4.89ETH
+                                        </a>
+                                        <span class="name">= $12.246</span>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="tabs__menu__content">
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/man-5.svg" alt="man-5">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tabs__menu__links__content">
+                                    <span></span>
+                                </div>
+                                <div class="content__header content__header--tabs__menu">
+                                    <div class="cards__container__footer__users details__span">
+                                        <div class="users__images__checked details__users">
+                                            <img src="img/woman-2.svg" alt="woman-2">
+                                            <span>
+                                                <i class="fa-solid fa-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="cards__content__footer__texts details__tabs__menu__users">
+                                            <a href="#">
+                                                Mason Woodward <span>place a bid</span>
+                                            </a>
+                                            <span class="name">8 hours ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="tabs__menu__content">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries, but also the leap into electronic typesetting,
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    
+                <section class="content content--seller">
+                    <div class="content__header">
+                        <h2 class="cards__title">
+                            Live Auctions
+                        </h2>
+    
+                        <div class="cards__more__title">
+                            <a href="#">
+                                EXPLORE MORE
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="items__details__page__cards">
+                            <div class="swiper-slide" id="items__details__page__cards__item">
+                                <div class="cards">
+                                    <div class="cards__content">
+                                        <div class="cards__content__image">
+                                            <a href="#"> </a>
+                                            <span class="times__span">
+                                                <i class="fa-solid fa-fire-flame-curved" style="color: blue;"></i>
+                                                <h2 class="countdown">
+                                                    <span id="countdown__item">
+                                                        <span id="countdown__text"></span>
+                                                    </span>
+                                                </h2>
+                                            </span>
+    
+                                            <span class="view__span view__span--like__span like__click">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <h6 class="span__like__text"></h6>
+                                            </span>
+    
+                                            <div class="place__bild__button">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-bag-shopping"></i>
+                                                    Place Bild
+                                                </a>
+                                            </div>
+                                        </div>
+    
+                                        <div class="cards__content__comment">
+                                            <a href="#"></a>
+                                            <span class="view__span view__span--bsc"></span>
+                                        </div>
+    
+                                        <div class="cards__container__footer">
+                                            <div class="cards__container__footer__users">
+    
+                                                <div class="cards__content__footer__texts">
+                                                    <h5 class="owned">Creator</h5>
+                                                    <a href="#" class="name"></a>
+                                                </div>
+                                            </div>
+    
+                                            <div class="cards__content__footer__texts">
+                                                <h5 class="owned">Current Bid</h5>
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cards__slider__pagination">
+                            <i class="fa-solid fa-arrow-left fa-xs"></i>
+                            <span class="pagination__dot active" data-page="1"></span>
+                            <span class="pagination__dot" data-page="2"></span>
+                            <span class="pagination__dot" data-page="3"></span>
+                            <span class="pagination__dot" data-page="4"></span>
+                            <i class="fa-solid fa-arrow-right fa-xs"></i>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    
+        <footer class="footer__container">
+            <div class="content__container">
+                <div class="row">
+                    <div class="grid-15">
+                        <div class="seller__container span-5">
+                            <div class="page__siyazlogo">
+                                <a href="index.html">
+                                    <img src="img/Vector.svg" alt="siyazLogo">
+                                    <h3 class="logo__title index__footer">Siyaz</h3>
+                                </a>
+                            </div>
+    
+                            <div class="create__content__header">
+                                <p>Lorem ipsum dolor sit amet,consectetur
+                                    adipisicing elit. Quis non, fugit totam vel
+                                    laboriosam vitae.</p>
+                            </div>
+    
+                            <div class="footer__container__social__media">
+    
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook fa-lg"></i>
+                                </a>
+    
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter fa-lg"></i>
+                                </a>
+    
+                                <a href="#">
+                                    <i class="fa-brands fa-google fa-lg"></i>
+                                </a>
+    
+                                <a href="#">
+                                    <i class="fa-brands fa-twitch fa-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="seller__container span-5">
+    
+                            <div class="create__content__header create__content__header--footer">
+                                <h3>My Account</h3>
+                                <div class="account--direction">
+                                    <a href="#">Authors</a>
+                                    <a href="#">Collection</a>
+                                    <a href="#">Author Profile</a>
+                                    <a href="#">Create Collection</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="seller__container span-5">
+    
+                            <div class="create__content__header create__content__header--footer">
+                                <h3>Resources</h3>
+                                <div class="account--direction">
+                                    <a href="#">Help & Support</a>
+                                    <a href="#">Live Auctions</a>
+                                    <a href="#">Item Details</a>
+                                    <a href="#">Activity</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="seller__container span-5">
+    
+                            <div class="create__content__header create__content__header--footer">
+                                <h3>Company</h3>
+                                <div class="account--direction">
+                                    <a href="#">About Us</a>
+                                    <a href="#">Contact Us</a>
+                                    <a href="#">Our Blog</a>
+                                    <a href="#">Discover</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="seller__container span-5">
+                            <div class="create__content__header create__content__header--footer">
+                                <h3>Subscribe Us</h3>
+                                <form action="">
+                                    <div class="footer__contaier__search__input">
+                                        <input type="text" placeholder="Info@yourgmail.com" name="footer__search">
+                                        <button>
+                                            <i class="fa-solid fa-paper-plane"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+    <script src="js/script.js"></script>
+    <script src="js/items__details.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="style/style.css" rel="stylesheet">
+    <title>Market Place Page</title>
+</head>
+
+<body>
+    <div class="preloade active">
+        <img src="img/Vector.svg">
+    </div>
+
+    <div class="page__content">
+        <nav class="navbar navbar__market--place">
+            <div class="row row--navbar__home__page">
+                <div class="navbar__content__container navbar__content__container--market__place">
+                    <div class="page__siyazlogo">
+                        <a href="index.html">
+                            <svg width="30" height="41" viewBox="0 0 30 41" fill="none" class="svg__siyaz"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.75 0C10.2255 5.0344 11.25 19.2187 11.25 19.2187C11.25 19.2187 7.5 17.9375 7.5 12.1719C3.02601 14.831 0 19.9421 0 25.625C0 34.1164 6.71572 41 15 41C23.2843 41 30 34.1164 30 25.625C29.9999 13.1328 18.75 10.5703 18.75 0V0ZM16.3176 35.7023C13.3034 36.4725 10.2505 34.5924 9.49887 31.5027C8.74736 28.4131 10.5816 25.2838 13.596 24.5135C20.8732 22.6538 21.7852 18.4592 21.7852 18.4592C21.7852 18.4592 25.4141 33.3775 16.3176 35.7023Z"
+                                    fill="url(#paint0_linear_161_67)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_161_67" x1="26.25" y1="-1.74884e-06" x2="-5.52352"
+                                        y2="31.3469" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#E250E5" />
+                                        <stop offset="1" stop-color="#4B50E6" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <h3 class="logo__title">Siyaz</h3>
+                        </a>
+                    </div>
+
+                    <div class="navbar__input__container">
+                        <div class="navbar__input">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Type to search..." name="navbar__search">
+                        </div>
+                    </div>
+
+                    <div class="navbar__links__container">
+                        <ul class="navbar__links__container__lists">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Explore <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                <ul class="navbar__dropdown">
+                                    <li><a href="explore1.html"><span class="navbar__dropdown__hr">-</span> Explore 1
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 2</a></li>
+                                    <li><span></span></li>
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 3 </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="items_details.html"><span class="navbar__dropdown__hr">-</span> Items
+                                            Details 1 </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Activity <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                <ul class="navbar__dropdown">
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Activity 1</a></li>
+                                    <li><span></span></li>
+                                    <li><a href="market_place.html"><span class="navbar__dropdown__hr">-</span> Market
+                                            Place</a></li>
+                                    <li><span></span></li>
+                                    <li><a href="home_page.html"><span class="navbar__dropdown__hr">-</span> Home
+                                            Page</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Community <i class="fa-solid fa-angle-down fa-xs"></i> </a>
+                                <ul class="navbar__dropdown">
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 1 </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Pages <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                <ul class="navbar__dropdown">
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 1 </a>
+                                    </li>
+                                    <li><span></span></li>
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 2</a></li>
+                                    <li><span></span></li>
+                                    <li><a href="login.html"><span class="navbar__dropdown__hr">-</span> Login
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="signup.html"><span class="navbar__dropdown__hr">-</span> Signup
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="edit_profile.html"><span class="navbar__dropdown__hr">-</span>
+                                            Edit Profile
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="create_item.html"><span class="navbar__dropdown__hr">-</span>
+                                            Create Item
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="author.html"><span class="navbar__dropdown__hr">-</span>
+                                            Author
+                                        </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="profil.html"><span class="navbar__dropdown__hr">-</span>
+                                            Profil
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact <i class="fa-solid fa-angle-down fa-xs"></i></a>
+                                <ul class="navbar__dropdown">
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 1 </a></li>
+                                    <li><span></span></li>
+                                    <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navbar__buttons">
+
+                        <div class="blank__background__button button--wallet">
+                            <a href="#">
+                                <i class="fa-solid fa-wallet"></i>
+                                <span>
+                                    Wallet connect
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="dark__light__button">
+                            <button class="theme__button light__mode">
+                                <i class="fa-regular fa-sun fa-lg"></i>
+                            </button>
+
+                            <button class="theme__button dark__mode">
+                                <i class="fa-regular fa-moon fa-lg"></i>
+                            </button>
+                        </div>
+
+                        <button class="theme__button navbar__links__responsive__menu__button"
+                            data-button="navbar__links__responsive__menu__button">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <div class="responsive__menu__button__content" data-menu="responsive__menu__button__content">
+                            <ul class="responsive__navbar__menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="#">Explore
+                                        <i class="fa-solid fa-angle-down fa-xs"></i>
+                                    </a>
+                                    <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                        <li><a href="explore1.html"><span class="navbar__dropdown__hr">-</span>
+                                                Explore
+                                                1
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore
+                                                2</a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Explore 3
+                                            </a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="items_details.html"><span class="navbar__dropdown__hr">-</span>
+                                                Items
+                                                Details 1 </a></li>
+                                    </ul>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="#">Activity
+                                        <i class="fa-solid fa-angle-down fa-xs"></i>
+                                    </a>
+                                    <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Activity
+                                                1</a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="market_place.html"><span class="navbar__dropdown__hr">-</span>
+                                                Market
+                                                Place</a></li>
+                                        <li><span></span></li>
+                                        <li><a href="home_page.html"><span class="navbar__dropdown__hr">-</span>
+                                                Home
+                                                Page</a></li>
+                                    </ul>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="#">Community
+                                        <i class="fa-solid fa-angle-down fa-xs"></i>
+                                    </a>
+                                    <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community 1
+                                            </a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Community
+                                                2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="#">Pages
+                                        <i class="fa-solid fa-angle-down fa-xs"></i>
+                                    </a>
+                                    <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 1 </a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Pages 2</a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="login.html"><span class="navbar__dropdown__hr">-</span>
+                                                Login
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="signup.html"><span class="navbar__dropdown__hr">-</span>
+                                                Signup
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="edit_profile.html"><span class="navbar__dropdown__hr">-</span>
+                                                Edit Profile
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="create_item.html"><span class="navbar__dropdown__hr">-</span>
+                                                Create Item
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="author.html"><span class="navbar__dropdown__hr">-</span>
+                                                Author
+                                            </a></li>
+                                        <li><span></span></li>
+                                        <li><a href="profil.html"><span class="navbar__dropdown__hr">-</span>
+                                                Profil
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="#">Contact
+                                        <i class="fa-solid fa-angle-down fa-xs"></i>
+                                    </a>
+                                    <ul class="navbar__dropdown navbar__dropdown--responsive">
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact 1
+                                            </a>
+                                        </li>
+                                        <li><span></span></li>
+                                        <li><a href="#"><span class="navbar__dropdown__hr">-</span> Contact
+                                                2</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section class="tabs__menu">
+                <div class="tabs__menu__links tabs__menu__links--market__place">
+                    <h3 class="active">Live Auctions</h3>
+                    <h3>Today's Picks</h3>
+                    <h3>Land</h3>
+                    <h3>Items</h3>
+                </div>
+            </section>
+
+            <section class="market__place__content__container">
+                <div class="sidebar__market__place">
+                    <div class="sidebar__header sidebar__header--up">
+                        <h2>Filter</h2>
+                        <h5 class="market__place__filter__reset__button">Reset</h5>
+                    </div>
+                    <span class="sidebar__market__place--hr header"></span>
+
+                    <div class="filter__content">
+                        <div class="sidebar__header">
+                            <h2>Categories</h2>
+                            <i class="fa-solid fa-chevron-up fa-xs filter__arrow"></i>
+                        </div>
+
+                        <div class="sidebar__header__content active">
+                            <div class="sidebar__header">
+                                <label for="art">Art</label>
+                                <input type="checkbox" value="art" id="art" name="art" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="music">Music</label>
+                                <input type="checkbox" value="music" id="music" name="music" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="domain_names">Domain Names</label>
+                                <input type="checkbox" value="domain_names" id="domain_names" name="domain_names"
+                                    class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="virtual_worlds">Virtual Worlds</label>
+                                <input type="checkbox" value="virtual_worlds" id="virtual_worlds" name="virtual_worlds"
+                                    class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="trading_cards">Trading Cards</label>
+                                <input type="checkbox" value="trading_cards" id="trading_cards" name="trading_cards"
+                                    class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="collectibles">Collectibles</label>
+                                <input type="checkbox" value="collectibles" id="collectibles" name="collectibles"
+                                    class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="sports">Sports</label>
+                                <input type="checkbox" value="sports" id="sports" name="sports"
+                                    class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="utility">Utility</label>
+                                <input type="checkbox" value="utility" id="utility" name="utility"
+                                    class="filter__checkbox">
+                            </div>
+                        </div>
+
+                        <div class="sidebar__header">
+                            <span class="sidebar__market__place--hr"></span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <div class="sidebar__header">
+                            <h2>File Types</h2>
+                            <i class="fa-solid fa-chevron-up fa-xs filter__arrow"></i>
+                        </div>
+                        <div class="sidebar__header__content active">
+                            <div class="sidebar__header">
+                                <label for="image">Image</label>
+                                <input type="checkbox" value="image" id="image" name="image" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="video">Video</label>
+                                <input type="checkbox" value="video" id="video" name="video" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="audio">Audio</label>
+                                <input type="checkbox" value="audio" id="audio" name="audio" class="filter__checkbox">
+                            </div>
+                        </div>
+
+                        <div class="sidebar__header">
+                            <span class="sidebar__market__place--hr"></span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <div class="sidebar__header">
+                            <h2>Currencies</h2>
+                            <i class="fa-solid fa-chevron-up fa-xs filter__arrow"></i>
+                        </div>
+
+                        <div class="sidebar__header__content active">
+
+                            <div class="sidebar__header">
+                                <label for="bnb">BNB</label>
+                                <input type="checkbox" value="bnb" id="bnb" name="bnb" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="busd">BUSD</label>
+                                <input type="checkbox" value="busd" id="busd" name="busd" class="filter__checkbox">
+                            </div>
+                            <div class="sidebar__header">
+                                <label for="eth">ETH</label>
+                                <input type="checkbox" value="eth" id="eth" name="eth" class="filter__checkbox">
+                            </div>
+                        </div>
+
+                        <div class="sidebar__header">
+                            <span class="sidebar__market__place--hr"></span>
+                        </div>
+                    </div>
+
+                    <div class="sidebar__header">
+                        <h2>Price Range</h2>
+                    </div>
+                    <div class="sidebar__header">
+                        <div class="sidebar__header--range">
+                            <div class="price__range__container">
+                                <input type="range" class="range1">
+                                <input type="range" class="range2">
+                            </div>
+                            <h6>Price: <span>$800 - $1,500</span></h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="market__place__content__cards">
+                    <div class="sidebar__header content--header">
+                        <h1>1,000 Items</h1>
+
+                        <div class="categories__menu">
+                            <div class="grid__list__direction">
+                                <button class="tabs__menu__click grid active">
+                                    <i class="fa-solid fa-border-all"></i>
+                                    Grid
+                                </button>
+                                <button class="tabs__menu__click list">
+                                    <i class="fa-solid fa-bars"></i>
+                                    List
+                                </button>
+                            </div>
+
+                            <div class="explore__categories">
+                                <div class="explore__categories__dropdown home__page__filter">
+                                    <a href="#" class="">
+                                        <i class="fa-solid fa-arrow-down-short-wide"></i>
+                                        <div class="categories__name">Low to High</div>
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+                                    <ul id="market__place__page__high">
+                                        <li class="active">Low To High</li>
+                                        <li>Asc Sort</li>
+                                        <li>Desc Sort</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__list__content active">
+                        <div class="grid-5" id="market__place__page__grid">
+                            <div class="cards" id="market__place__products__card">
+                                <div class="cards__content">
+                                    <div class="cards__content__footer">
+                                        <div class="cards__container__footer market__place">
+                                            <div class="cards__container__footer__users"
+                                                id="market__place__page__users__image">
+                                                <div id="users__image"></div>
+                                                <div class="cards__content__footer__texts" id="users__name__container">
+                                                    <h5 class="owned">Creator</h5>
+                                                    <a href="#" class="name" id="users__name"></a>
+                                                </div>
+                                            </div>
+
+                                            <span class="view__span like__click">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <h6 class="span__like__text"></h6>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="cards__content__image" id="market__place__products__image">
+                                        <a href="#"></a>
+                                        <span class="times__span">
+                                            <i class="fa-solid fa-fire-flame-curved" style="color: blue;"></i>
+                                            <h2 class="countdown">
+                                                <span id="countdown__item">
+                                                    <span id="countdown__text"></span>
+                                                </span>
+                                            </h2>
+                                        </span>
+                                    </div>
+
+                                    <div class="market__place__footer__container" id="market__place__product__name">
+                                        <a href="#"></a>
+                                        <div class="cards__content__comment">
+                                            <div class="cards__container__footer__users" id="product__eth">
+                                                <h5>Current Bid</h5>
+                                                <span></span>
+                                            </div>
+                                            <span class="view__span view__span--bsc"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid__list__content">
+                        <div class="grid__list__direction__container">
+                            <div
+                                class="view__span view__span--grey cards__container__footer__users details__span market__place">
+                                <div class="list__cards__container">
+                                    <a href="#" class="market__place__list__products__image"></a>
+
+                                    <div class="cards__content__footer__texts market__place"
+                                        id="market__place__list__products__name">
+                                        <h6>ITEM NAME</h6>
+                                        <a href="#"></a>
+                                    </div>
+
+                                    <div class="cards__content__footer__texts market__place">
+                                        <h6>CREATOR</h6>
+                                        <div class="cards__container__footer__users grid__list__users">
+                                            <div id="list__cards__user__image"></div>
+                                            <a href="#"></a>
+                                        </div>
+                                    </div>
+
+                                    <div class="cards__content__footer__texts market__place">
+                                        <div class="cards__container__footer__users grid__list__users">
+                                            <i class="fa-solid fa-fire-flame-curved fa-lg" style="color: #5142FC;"></i>
+                                            <h6>COUNTDOWN</h6>
+                                        </div>
+                                        <h2 class="countdown">
+                                            <span id="countdown__item">
+                                                <span id="countdown__text"></span>
+                                            </span>
+                                        </h2>
+                                    </div>
+
+                                    <span class="view__span like__click">
+                                        <i class="fa-regular fa-heart "></i>
+                                        <h6 class="span__like__text"></h6>
+                                    </span>
+
+                                    <span class="view__span view__span--bsc">BSC</span>
+
+                                    <div class="cards__content__footer__texts market__place"
+                                        id="market__place__list__current__bind">
+                                        <h6>CURRENT BIND</h6>
+                                        <a href="#"> </a>
+                                    </div>
+
+                                    <div class="blank__background__button blank__background__button--market__place">
+                                        <a href="#">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            Place Bild
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="load__more__button">
+                        <div class="blank__background__button blank__background__button--black">
+                            <a href="#">
+                                Load More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/market__place.js"></script>
+</body>
+
+</html>
